@@ -1,0 +1,258 @@
+/* #contact{
+    position: absolute;
+    width: 960px;
+    height: 572px;
+    top: 3960px;
+    left: 220px;
+
+} */
+.check-out{
+    display: flex;
+
+}
+.check-out .checkout{
+    width: 900px;
+    height: 765px;
+    border-radius: 50px 0 0 50px;
+    opacity: 0px;
+    background: rgba(39, 70, 42, 0.23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+    /* margin-left: 90px;
+    margin-top: 40px; */
+}
+
+.checkout h1{
+    width: 231px;
+    height: 45px;
+    left: 207px;
+    
+    /* margin-left: 215px; */
+    /* left: 123px;
+    gap: 0px;
+    opacity: 0px; */
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(26, 83, 25, 1);
+    margin-top: 40px;
+    margin-left: 215px;
+}
+.check-out .checkout form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 693px;
+    height: 707px;
+    top: 52px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.check-out .checkout form .myanimatelabel {
+    top: -5px;
+}
+.checkout-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: center;
+    align-items: center; */
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.checkout-btn {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    margin-top: 60px;
+}
+.checkout-btn .check-btn {
+    width: 270px;
+    height: 50px;
+    top: 354px;
+    margin-left: 45px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 45px ;
+    border: 1px solid rgba(252, 252, 252, 1);
+    background: rgba(124, 135, 97, 0.67);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    
+
+    /* height: 40px;
+    border-radius: 25px;
+    border: 1px solid var(--submit-color);
+    opacity: 0px;
+    background: var(--btn-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--submit-color);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s; */
+   
+}
+
+.input-control {
+    position: relative;
+    border-bottom: 1px solid rgb(26, 83, 25);
+    /* margin: 40px 0; */
+    /* display: flex;
+    align-items: center; */
+  }
+.input-control .input-contact {
+    margin-top: 10px;
+    /* width: 203px; */
+    height: 50px;
+    gap: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(26, 83, 25);
+    opacity: 0px;
+    color: rgba(214, 239, 216, 1);
+    /* padding: 0 1rem; */
+    font-size: 17px;
+    outline: none;
+    border: none;
+    position: relative;
+    /* padding: 1.5rem; */
+}
+.input-control .input-contact:focus, .input-contact:focus-visible {
+    /* border-color: rgba(214, 239, 216, 1); */
+    outline: none;
+}
+
+.input-control .label {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(214, 239, 216, 1);
+    text-transform: uppercase;
+    position: absolute;
+    pointer-events: none;
+    /* left: 5px; */
+    /* top: 8px; */
+    /* left: 1rem; */
+    top: .875rem;
+    overflow: hidden;
+    /* padding-left: 1rem; */
+    transition: 500ms cubic-bezier(0.4,0,0.2,1);
+
+}
+
+.input-control .input-contact:focus~.label, input:valid ~ label {
+    top: -2px;
+    left: 8px;
+    font-size: 15px;
+    color:rgba(214, 239, 216, 1);
+}
+
+/* -------------------------------------------- */
+.check-out .checkout-map{
+    position: relative;
+}
+.check-out .checkout-map .map-btn{
+    position: absolute;
+    top: 81px;
+    left: 56px;
+    
+}
+.check-out .checkout-map .map-btn button{
+    width: 115px;
+    height: 43px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(26, 83, 25, 1);
+    margin-right: 10px;
+}
+.check-out .checkout-map .location{
+    position: absolute;
+    bottom: 40px;
+    left: 56px;
+    width: 339px;
+    height: 124px;
+    gap: 0px;
+    border-radius: 30px ;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(26, 83, 25, 1);
+
+}
+.check-out .checkout-map .location h2{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-left: 41px;
+}
+.check-out .checkout-map .location p{
+    width: 190px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 41px;
+}
+.map-image img{
+    width: 452px;
+    height: 765px;
+    gap: 0px;
+    border-radius: 0px 50px 50px 0px;
+    opacity: 0px;
+
+    /* margin-left: 40px;
+    margin-top: 40px; */
+}
+
+.payment-ditels {
+    margin-top: 80px;
+}
+
+.checkout .payment-ditels h1{
+    width: 244px;
+    height: 45px;
+    left: 207px;
+    margin-bottom: 50px;
+    /* margin-left: 215px; */
+    /* left: 123px;
+    gap: 0px;
+    opacity: 0px; */
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(26, 83, 25, 1);
+}

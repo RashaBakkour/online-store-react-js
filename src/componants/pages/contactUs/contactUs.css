@@ -1,0 +1,235 @@
+/* #contact{
+    position: absolute;
+    width: 960px;
+    height: 572px;
+    top: 3960px;
+    left: 220px;
+
+} */
+.section-title h2{
+    width: 259px;
+    height: 51px;
+    top: -1px;
+    left: 453px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 1);
+
+}
+
+/* .login{
+    width: 960px;
+    height: 572px;
+    top: 2978px;
+    left: 236px;
+    gap: 0px;
+    opacity: 0px;
+
+} */
+.login .contact-us{
+    width: 880px;
+    height: 572px;
+    border-radius: 50px;
+    opacity: 0px;
+    background: rgba(39, 70, 42, 0.23);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.contact-us h1{
+    width: 160px;
+    height: 54px;
+    margin-left: 215px;
+    /* left: 123px;
+    gap: 0px;
+    opacity: 0px; */
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 54px;
+    text-align: center;
+    background: linear-gradient(180.92deg, #508D4E -13.8%, #161313 154.8%);
+    background-clip: text;
+    color: transparent;
+}
+form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 403px;
+    height: 451px;
+    top: 52px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+form .myanimatelabel {
+    top: -5px;
+}
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: center;
+    align-items: center; */
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+
+.form{
+    padding-left: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    /* width: 65%; */
+    width: 482px;
+    /* height: 451px;
+    top: 52px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px; */
+}
+
+/* .form .input-control {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+.form .input-control input {
+    Width: 525px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(26, 83, 25);
+    cursor: text;
+    color: #fff;
+}
+
+.input-control label {
+    color:rgba(214, 239, 216, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+    transform: translateY(-5px);
+    position: absolute;
+    transition: 0.3s;
+}
+
+
+.input-control input:focus {
+    outline: none;
+    background-color: transparent;
+} */
+.contact-btn {
+    width: 442px;
+    height: 50px;
+    top: 354px;
+    margin-left: 45px;
+    padding: 10px 0px 10px 0px;
+    gap: 0px;
+    border-radius: 45px ;
+    border: 1px solid rgba(252, 252, 252, 1);
+    background: rgba(124, 135, 97, 0.67);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    
+
+    /* height: 40px;
+    border-radius: 25px;
+    border: 1px solid var(--submit-color);
+    opacity: 0px;
+    background: var(--btn-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--submit-color);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s; */
+   
+}
+
+.input-control {
+    position: relative;
+    border-bottom: 1px solid rgb(26, 83, 25);
+    /* margin: 40px 0; */
+    /* display: flex;
+    align-items: center; */
+  }
+.input-control .input-contact {
+    margin-top: 10px;
+    /* width: 203px; */
+    height: 50px;
+    gap: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(26, 83, 25);
+    opacity: 0px;
+    color: rgba(214, 239, 216, 1);
+    /* padding: 0 1rem; */
+    font-size: 17px;
+    outline: none;
+    border: none;
+    position: relative;
+    /* padding: 1.5rem; */
+}
+.input-control .input-contact:focus, .input-contact:focus-visible {
+    /* border-color: rgba(214, 239, 216, 1); */
+    outline: none;
+}
+
+.input-control .label {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(214, 239, 216, 1);
+
+    position: absolute;
+    pointer-events: none;
+    /* left: 5px; */
+    /* top: 8px; */
+    /* left: 1rem; */
+    top: .875rem;
+    overflow: hidden;
+    /* padding-left: 1rem; */
+    transition: 500ms cubic-bezier(0.4,0,0.2,1);
+
+}
+
+.input-control .input-contact:focus~.label, input:valid ~ label {
+    top: -2px;
+    left: 8px;
+    font-size: 15px;
+    color:rgba(214, 239, 216, 1);
+}
+
+.info{
+    margin-left: 40px;
+    margin-top: 40px;
+}

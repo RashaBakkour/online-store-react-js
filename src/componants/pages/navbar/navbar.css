@@ -1,0 +1,185 @@
+
+.navbar{
+    /* width: 1279px; */
+    height: 72px;
+    top: 43px;
+    /* left: 72px; */
+
+}
+
+.navbar .nav  .home, .about, .product, .services, .contact{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    top: 4px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0 1rem;
+    color: rgba(255, 255, 255, 1);
+
+}
+.navbar .nav a:hover {
+    color: rgba(255, 255, 255, 0.56);
+
+}
+
+/* .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+.right .nav-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    height: 42px;
+    margin-top: 12px;
+}
+
+.right .nav-icons .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.right .nav-icons .input-container .input {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 18px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    color: #fff;
+    margin-top: -17px;
+  }
+  
+  .right .nav-icons .input-container .input::placeholder {
+    color: transparent;
+  }
+  
+  .right .nav-icons .input-container .input:focus::placeholder {
+    color: rgb(131, 128, 128);
+  }
+  
+  .right .nav-icons .input-container .input:focus,.input:not(:placeholder-shown) {
+    background-color: rgba(214, 239, 216, 0.76);
+    /* border: 1px solid rgb(91, 107, 255); */
+    width: 220px;
+    cursor: pointer;
+    padding: 18px 16px 18px 45px;
+  }
+  
+  .right .nav-icons .input-container .icon {
+    position: absolute;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    /* border-radius: 99px; */
+    z-index: -1;
+    /* fill: rgb(91, 107, 255); */
+    /* border: 1px solid rgb(91, 107, 255); */
+}
+
+.right .nav-icons .input-container .input:focus + .right .nav-icons .input-container .icon,
+.right .nav-icons .input-container .input:not(:placeholder-shown) + .right .nav-icons .input-container .icon {
+    z-index: 0;
+    background-color: transparent;
+    border: none;
+    color: rgba(76, 85, 55, 1);
+}
+
+/* -------------------------- */
+.right .nav-select{
+    display: flex;
+    flex-direction: row;
+}
+.right .nav-select select{
+    width: 130px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+.right .nav-select   option {
+    position: absolute;
+    background-color: rgba(214, 239, 216, 1);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* ----------------------- */
+.right .nav-select #theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; */
+    top: 20px;
+    right: 20px;
+}
+#theme-switch box-icon{
+    fill: var(--primary-color);
+    cursor: pointer;
+    animation: keyframes-fill .5s;
+}
+@keyframes keyframes-fill {
+    0% {
+        transform: rotate(-360deg) scale(0);
+        opacity: 0;
+    }
+
+    75% {
+        transform: rotate(25deg);
+    }
+}
+#theme-switch box-icon:last-child{
+    display: none;
+}
+.darkmode #theme-switch box-icon:first-child{
+    display: none;
+}
+.darkmode #theme-switch box-icon:last-child{
+    display: block;
+}
+
+
+.right button{
+    width: 67px;
+    height: 42px;
+    /* top: 11px;
+    left: 1212px; */
+    padding: 10px 10px 11px 11px;
+    gap: 0px;
+    border-radius: 45px;
+    border: 1px solid rgba(252, 252, 252, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+
+    /* color: rgba(124, 135, 97, 0.67); */
+}
