@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/online-store-react-js/static/css/main.43570d1f.css",
+    "main.js": "/online-store-react-js/static/js/main.97f691e0.js",
+    "static/media/green-plant.png": "/online-store-react-js/static/media/green-plant.f0902af41da4cbd5b919.png",
+    "static/media/master.png": "/online-store-react-js/static/media/master.e589a55f9740b6772fa8.png",
+    "static/media/home-image.png": "/online-store-react-js/static/media/home-image.010b5df9fb5bfae7af46.png",
+    "static/media/Rectangle 61.png": "/online-store-react-js/static/media/Rectangle 61.8ad22cb6879267f9f0de.png",
+    "static/media/product_img.png": "/online-store-react-js/static/media/product_img.da5b3a85cc60a1468fd7.png",
+    "static/media/Basemap image.png": "/online-store-react-js/static/media/Basemap image.8b3699132a7dd5743a9c.png",
+    "static/media/Frame 38.png": "/online-store-react-js/static/media/Frame 38.fc49fb89df010ce8cf00.png",
+    "static/media/Frame 39.png": "/online-store-react-js/static/media/Frame 39.f4a746c8ebdc7c790d65.png",
+    "static/media/Rectangle 33.png": "/online-store-react-js/static/media/Rectangle 33.51d2079ad8f681b34d6d.png",
+    "static/media/Frame 40.png": "/online-store-react-js/static/media/Frame 40.1797d23a23e4dc09203f.png",
+    "static/media/image 26.png": "/online-store-react-js/static/media/image 26.9321261e770368ae135e.png",
+    "static/media/Rectangle 35.png": "/online-store-react-js/static/media/Rectangle 35.d01272118e72a5936ceb.png",
+    "static/media/Rectangle 36.png": "/online-store-react-js/static/media/Rectangle 36.00e28c445dd5a150cabb.png",
+    "static/media/similar-item.png": "/online-store-react-js/static/media/similar-item.1a253ba6c31f6e3267ab.png",
+    "static/media/Rectangle 34.png": "/online-store-react-js/static/media/Rectangle 34.3a7b73001c151ade5896.png",
+    "static/media/Frame 41.png": "/online-store-react-js/static/media/Frame 41.584f80b99ba142414c13.png",
+    "static/media/Rectangle 31.png": "/online-store-react-js/static/media/Rectangle 31.6df773e6bb483edd2b05.png",
+    "static/media/image 23.png": "/online-store-react-js/static/media/image 23.7e454499688256bfa236.png",
+    "static/media/pexels-rafa-de-21730-97260-removebg-preview 2.png": "/online-store-react-js/static/media/pexels-rafa-de-21730-97260-removebg-preview 2.4bee96cae56d7c670bcf.png",
+    "static/media/image 24.png": "/online-store-react-js/static/media/image 24.a57e8e3949b537931425.png",
+    "index.html": "/online-store-react-js/index.html",
+    "main.43570d1f.css.map": "/online-store-react-js/static/css/main.43570d1f.css.map",
+    "main.97f691e0.js.map": "/online-store-react-js/static/js/main.97f691e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43570d1f.css",
+    "static/js/main.97f691e0.js"
+  ]
+}
