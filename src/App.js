@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './componants/pages/home/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter, Navigate } from 'react-router-dom';
 import AboutUs from './componants/pages/aboutUs/AboutUs';
 import Services from './componants/pages/services/Services';
 import Products from './componants/pages/products/Products';
 import ContactUs from './componants/pages/contactUs/ContactUs';
-import Layout from './componants/pages/layouts/Layout';
+// import Layout from './componants/pages/layouts/Layout';
 // import Router from './componants/Routes/Router';
 import ProductDitels from './componants/pages/productDitels/ProductDitels';
 import OrderDitels from './componants/pages/orderDitels/OrderDitels';
@@ -18,9 +18,9 @@ import CheckOut from './componants/pages/checkout/CheckOut';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Navigate to="/Layout" />}>
             
               <Route exact  element={<Home />} />
               <Route path="about" element={<AboutUs />} />
@@ -38,7 +38,7 @@ function App() {
               <Route path="checkout" element={<CheckOut />} />
             </Route>
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
      
       
     
